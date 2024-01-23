@@ -1,9 +1,9 @@
 import "./App.css";
 import NavBar from "../src/components/NavBar";
-import Banner from "../src/components/Banner";
 import Skills from "../src/components/Skills";
 import Projects from "../src/components/Projects";
-import Footer from "../src/components/Footer";
+import Banner from "../src/components/Banner";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -13,7 +13,6 @@ function App() {
       <Banner />
       <Skills />
       <Projects />
-      <Footer />
     </div>
   );
 }
